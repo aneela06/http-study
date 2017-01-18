@@ -135,7 +135,7 @@ material. Instead, digest what you've read and repeat it in your own voice.
 In your own words, give a breif description of what HTTP is.
 
 ```md
-<!-- your answer here -->
+<!-- HTTP allows moving content from the server to the client. -->
 ```
 
 ## Describe what a client is and what a server is
@@ -143,7 +143,7 @@ In your own words, give a breif description of what HTTP is.
  What is a client is and what is a server? How do they interact with each other?
 
 ```md
-<!-- your answer here -->
+<!-- A client is google chrome who sends a request to a server which then responses with the content.  They interact with each other by HTTP verbs. -->
 ```
 
 ## Describe the 4 most common HTTP verbs
@@ -152,7 +152,7 @@ What are the 4 most common HTTP verbs used when creating a RESTful API. How
 would you use each?
 
 ```md
-<!-- your answer here -->
+<!-- The most common HTTP verbs are GET, which allows you to get information from the server.  DELETE is a verb which will send the request to delete content and the server manages how its done. POST is when you want to insert content and the server manages it.  The post could be a facebook post.  PUT is when you update a status. -->
 ```
 
 ## Describe what a Response is
@@ -161,7 +161,7 @@ What is a response? what does it contain? What are some common status codes in a
 response and what do they mean?
 
 ```md
-<!-- your answer here -->
+<!-- The response is the server sending back content to the client. The common status codes in a response are 200, which means that the response was successful. 404 means that the server was not found.  -->
 ```
 
 ## Make a curl request
@@ -169,7 +169,7 @@ response and what do they mean?
 Using curl, how would you get the content from Reddit.com?
 
 ```md
-<!-- your answer here -->
+<!-- curl --request GET https://www.reddit.com -->
 ```
 
 ## Describe the parts of a URL
@@ -179,5 +179,12 @@ refer to this list often in the next few weeks, so it's important to keep it in
 an easy-to-reference place.
 
 ```md
-<!-- your answer here -->
+<!-- protocol: HTTP or HTTPS(this one is more secure)
+    host: this is what website you want to visit.
+    port: is a gateway which organizes resources, such as what to use for a browser or a video game console.
+    resource path: it is a path to the file name or where the content is saved.
+    query: is the request's details sent to the server.
+    Consulted: https://en.wikipedia.org/wiki/Query_string;
+    https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL;
+    -->
 ```
